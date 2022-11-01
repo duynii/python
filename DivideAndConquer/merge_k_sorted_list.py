@@ -41,7 +41,7 @@ class Solution:
 
         return dummy.next
 
-    def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
+    def mergeKLists(self, lists: list[Optional[ListNode]]) -> Optional[ListNode]:
 
         # Attempt to use heap merge - or just call heapq.merge()
         # O(2nlog(k)) with only O(k) space in the heap, and O(n) in result
